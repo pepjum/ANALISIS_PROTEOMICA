@@ -1,5 +1,6 @@
 # create fasta file from md5 file of nextProt
 args=(commandArgs(TRUE))
+library(BioStrings)
 
 source("/home/margaret/data/01_Rscripts/A_Funciones/funcionesShotgun.R")
 
